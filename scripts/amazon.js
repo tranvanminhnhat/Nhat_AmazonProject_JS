@@ -82,4 +82,6 @@ document.querySelectorAll('.js-add-to-cart')
     });
   }); 
 
-  
+window.addEventListener('load', function () {
+  updateCartQuantity();
+});
